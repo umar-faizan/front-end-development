@@ -1,0 +1,116 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="UFT-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="description" content="This is description">
+<meta name="keywords" content="Keywords, Next One, Learning HTML">
+<meta name="robots" content="index, follow">
+</head>
+<body>
+<a href="https://www.qries.com/">
+    <img src="https://www.qries.com/images/banner_logo.png" alt="Qries"
+    width="150" height="70">
+</a>
+<hr>
+<ol type="I">
+<li> First </li>
+<ol type="i">
+<li>Sub</li>
+</ol>
+<li> Second </li>
+<li> Third </li>
+</ol>
+<br>
+<ul type="disc">
+<li> First </li>
+<li> Second </li>
+<ul type="circle">
+<li>Sub</li>
+</ul>
+<li> Third </li>
+</ul>
+<hr>
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Father's Name</th>
+		<th>Roll #</th>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1. Umar Faizan </td>
+			<td> Farooq </td>
+			<td> BITF19M010 </td>
+		</tr>
+		<tr>
+			<td>2.  Shuban Farooq </td>
+			<td> Ahmad </td>
+			<td> BITF19M016 </td>
+		</tr>
+		<tr>
+			<td>3.  Hiba Farooq </td>
+			<td> Maqbool </td>
+			<td> BITF19M012 </td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+<form action="backend.php">
+<div>
+<label for="name"> Name: <label>
+<input type="text" name="myName" id="name">
+</div>
+<br>
+<div>
+<label for="role"> Role: <label>
+<input type="text" name="myRole" id="role">
+</div>
+<br>
+<div>
+<label for="email"> Email: <label>
+<input type="email" name="myEmail" id="email">
+</div>
+<br>
+<div>
+<label for="date"> Date: <label>
+<input type="date" name="myDate" id="date">
+</div>
+<br>
+<div>
+<label for="bonus"> Bonus: <label>
+<input type="number" name="myBonus" id="bonus">
+</div>
+<br>
+<div>
+<label for="check"> Are you eligible? <label>
+<input type="checkbox" name="myEligibility" id="check" checked>
+</div>
+<br>
+<div>
+Gender: <input type="radio" name="myGender"> Male <input type="radio" name="myGender"> Female
+<input type="radio" name="myGender"> Other
+</div>
+<br>
+<div>
+<label for="write"> Write About Yourself: <label> <br> <br>
+<textarea name="myIntro" rows="10" cols="90" id="write"> </textarea>
+</div>
+<br>
+<div>
+<label for="car"> Car: </label>
+<select name="myCar" id="car"> 
+<option> Vezel </option>
+<option selected> Civic </option>
+</select>
+</div>
+<br>
+<div>
+<input type="submit" value="Submit Now">
+<input type="reset" value="Reset Now">
+</div>
+<br>
+</form>
+</body>
+</html>
