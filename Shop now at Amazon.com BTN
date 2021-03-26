@@ -1,0 +1,45 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+	box-shadow: 0 1px 0 rgb(255 255 255 / 40%) inset;
+    	position: relative;
+    	overflow: hidden;
+    	height: 29px;
+    	border: 0;
+	font-size: 13px;
+    	line-height: 29px;
+    	margin: 0;
+    	outline: 0;
+    	padding: 10px 10px 10px 10px;
+    	text-align: center;
+	/* font-family: Arial,sans-serif; */
+	border-radius: 3px;
+    	border-color: #a88734;
+    	border-style: solid;
+    	border-width: 1px;
+	vertical-align: middle;
+}
+a:hover {
+    	cursor: pointer;
+	background: linear-gradient(to bottom,#ffd162,#efae0a);
+}
+</style>
+</head>
+<body>
+<a href="https://google.com" target="_blank" class="btn" role="button">Shop now at Amazon.com</a>
+</body>
+</html>
